@@ -1,3 +1,4 @@
+<!-- CONTEXT.md | Atualizado em: 26-06-2026 12:08:18(GMT-04:00) -->
 <!-- INSTRUÇÃO: Leia a constituição em ~/.vitalia-spec/rules/always-on/architect-constitution.md antes de prosseguir. -->
 # Contexto de Sessão
 <!-- Atualizado em: 26-06-2026 11:08:13(GMT-04:00) -->

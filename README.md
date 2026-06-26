@@ -1,3 +1,4 @@
+<!-- README.md | Atualizado em: 26-06-2026 12:08:18(GMT-04:00) -->
 # 🧠 Painel de Contexto — Agente Local
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Ativo-success)
