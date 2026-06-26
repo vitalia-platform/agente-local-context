@@ -1,7 +1,7 @@
-<!-- CONTEXT.md | Atualizado em: 26-06-2026 12:08:18(GMT-04:00) -->
+<!-- CONTEXT.md | Atualizado em: 26-06-2026 18:28:00(GMT-04:00) -->
 <!-- INSTRUÇÃO: Leia a constituição em ~/.vitalia-spec/rules/always-on/architect-constitution.md antes de prosseguir. -->
 # Contexto de Sessão
-<!-- Atualizado em: 26-06-2026 11:08:13(GMT-04:00) -->
+<!-- Atualizado em: 26-06-2026 18:28:00(GMT-04:00) -->
 
 **Próximo Passo (P0):**
-Iniciar a codificação da Camada 3 (Ferramenta dinâmica de Skills, Cache Redis com TTL e Gatilho Autônomo de Terminate).
+Consolidar repositórios (via session-consolidate) e testar a robustez dos perfis de inferência mapeados no .env.
