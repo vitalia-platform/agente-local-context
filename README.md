@@ -11,7 +11,7 @@ Este repositório armazena a memória e o contexto sincronizado das sessões de 
 graph TD
   Cloud((Nuvem Central))
   e55b4d1f["Server GTX 1060<br/>Status: Concluído"]
-  Cloud <-->|26-06-2026 11:08:13(GMT-04:00)| e55b4d1f
+  Cloud <-->|"26-06-2026 11:08:13(GMT-04:00)"| e55b4d1f
   style e55b4d1f stroke:#666,stroke-width:2px,fill:#eee,color:#333
 ```
 
