@@ -10,9 +10,9 @@ Este repositório armazena a memória e o contexto sincronizado das sessões de 
 ```mermaid
 graph TD
   Cloud((Nuvem Central))
-  e5897140["Nó 1<br/>Status: Aguardando Próximo Sprint"]
-  Cloud <-->|"2026-06-27 11:42:00(GMT-04:00)"| e5897140
-  style e5897140 stroke:#666,stroke-width:2px,fill:#eee,color:#333
+  N/A["Desconhecida<br/>Status: Concluído"]
+  Cloud <-->|"01-07-2026 15:03:00(GMT-04:00)"| N/A
+  style N/A stroke:#666,stroke-width:2px,fill:#eee,color:#333
   e55b4d1f["Server GTX 1060<br/>Status: Concluído"]
   Cloud <-->|"26-06-2026 11:08:13(GMT-04:00)"| e55b4d1f
   style e55b4d1f stroke:#666,stroke-width:2px,fill:#eee,color:#333
@@ -31,10 +31,10 @@ graph TD
   </thead>
   <tbody>
     <tr>
-      <td><strong>Nó 1</strong><br/><code>e5897140</code></td>
-      <td>Implementação da Camada 3 e Troubleshooting Local</td>
-      <td>Aguardando Próximo Sprint</td>
-      <td>2026-06-27 11:42:00(GMT-04:00)</td>
+      <td><strong>Desconhecida</strong><br/><code>N/A</code></td>
+      <td>Onboarding, Web UI e E2E Test Debug</td>
+      <td>Concluído</td>
+      <td>01-07-2026 15:03:00(GMT-04:00)</td>
     </tr>
     <tr>
       <td><strong>Server GTX 1060</strong><br/><code>e55b4d1f</code></td>
