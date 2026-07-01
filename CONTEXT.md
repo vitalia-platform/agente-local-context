@@ -4,4 +4,4 @@
 <!-- Atualizado em: 27-06-2026 10:14:06(GMT-04:00) -->
 
 **Próximo Passo (P0):**
-Consolidar repositórios (via session-consolidate) e testar a robustez dos perfis de inferência mapeados no .env.
+Iniciar o desenvolvimento de novas features ou expansão do RAG
