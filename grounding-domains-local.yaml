@@ -1,0 +1,87 @@
+# grounding-domains-local.yaml | GERADO pelo vitalia_context_engine.py
+# NAO EDITE ESTE ARQUIVO — use data/grounding-domains.jsonl para customizar
+# Ultima geracao: 12-08-2026 21:33:38(GMT-04:00)
+# Pendentes de curacao: 0
+
+base_version: '1.0'
+local_entries: 0
+pending_curadoria: 0
+last_generated: 12-08-2026 21:33:38(GMT-04:00)
+domains:
+  llm_models:
+    description: Versões, capacidades, benchmarks e preços de modelos LLM
+    mandatory_search: true
+    authoritative_sources:
+    - ai.google.dev/gemini-api/docs
+    - platform.openai.com/docs
+    - docs.anthropic.com
+    - huggingface.co/docs
+    examples:
+    - gemini-2.5-pro suporta X tokens de contexto
+    - claude-3.5-sonnet tem Y de context window
+  python_packages:
+    description: Versões de pacotes PyPI, compatibilidade, breaking changes
+    mandatory_search: true
+    authoritative_sources:
+    - pypi.org
+    - docs.[pacote].org ou .dev ou .io
+    examples:
+    - Django 5.x exige Python 3.10+
+    - SQLAlchemy 2.0 mudou API de session
+    - requests 2.32 tem CVE X
+  external_apis:
+    description: Endpoints, schemas, rate limits, autenticação de APIs externas
+    mandatory_search: true
+    authoritative_sources:
+    - Documentação oficial da API referenciada (sempre URL específica)
+    examples:
+    - Stripe usa HMAC-SHA256 para webhooks
+    - OpenAI API aceita X parâmetro em Y endpoint
+    - GitHub Actions tem limite de Z minutos por mês
+  security_practices:
+    description: CVEs, vulnerabilidades, práticas de segurança atuais
+    mandatory_search: true
+    authoritative_sources:
+    - cve.mitre.org
+    - nvd.nist.gov
+    - owasp.org
+    - cheatsheetseries.owasp.org
+    - security.snyk.io
+  regulations:
+    description: LGPD, HIPAA, GDPR, normas de compliance — que evoluem
+    mandatory_search: true
+    authoritative_sources:
+    - gov.br/anpd/pt-br
+    - planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709
+    - hhs.gov/hipaa
+    - edpb.europa.eu
+  cloud_services:
+    description: Preços, SLAs, limites e recursos de serviços em nuvem
+    mandatory_search: true
+    authoritative_sources:
+    - cloud.google.com/pricing
+    - aws.amazon.com/pricing
+    - azure.microsoft.com/pricing
+    - oracle.com/cloud/pricing
+    - digitalocean.com/pricing
+    - linode.com/pricing
+    - vultr.com/pricing
+  scientific_claims:
+    description: Afirmações sobre evidências científicas, eficácia de técnicas, benchmarks
+      de pesquisa
+    mandatory_search: true
+    authoritative_sources:
+    - pubmed.ncbi.nlm.nih.gov
+    - cochranelibrary.com
+    - scholar.google.com
+    note: 'INDEPENDENTE do medical-gate. O medical-gate cobre publicação de conteúdo
+      clínico para USUÁRIOS FINAIS (pipeline DRAFT→REVIEW→ACTIVE). Este domínio cobre
+      afirmações durante PLANEJAMENTO e BRAINSTORMING (ex: "técnica X tem 90% de acurácia
+      segundo estudo Y"). Ambos são necessários — cobrem fases distintas.'
+exempt_domains:
+- Sintaxe de linguagem de programação (Python, JS, SQL, Bash, etc.)
+- Algoritmos e estruturas de dados fundamentais (ordenação, grafos, etc.)
+- Conceitos de arquitetura de software (SOLID, DDD, Clean Architecture, etc.)
+- Lógica de negócio específica deste projeto (definida na spec)
+- Comandos de terminal e shell (ls, git, grep, awk, etc.)
+- Padrões de design de software (Factory, Observer, Strategy, etc.)
