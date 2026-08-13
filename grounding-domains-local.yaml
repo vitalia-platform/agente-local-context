@@ -1,12 +1,12 @@
 # grounding-domains-local.yaml | GERADO pelo vitalia_context_engine.py
 # NAO EDITE ESTE ARQUIVO — use data/grounding-domains.jsonl para customizar
-# Ultima geracao: 12-08-2026 21:45:03(GMT-04:00)
+# Ultima geracao: 13-08-2026 17:09:53(GMT-04:00)
 # Pendentes de curacao: 0
 
 base_version: '1.0'
-local_entries: 2
+local_entries: 0
 pending_curadoria: 0
-last_generated: 12-08-2026 21:45:03(GMT-04:00)
+last_generated: 13-08-2026 17:09:53(GMT-04:00)
 domains:
   llm_models:
     description: Versões, capacidades, benchmarks e preços de modelos LLM
@@ -25,7 +25,6 @@ domains:
     authoritative_sources:
     - pypi.org
     - docs.[pacote].org ou .dev ou .io
-    - packaging.python.org/en/latest/
     examples:
     - Django 5.x exige Python 3.10+
     - SQLAlchemy 2.0 mudou API de session
@@ -79,13 +78,6 @@ domains:
       clínico para USUÁRIOS FINAIS (pipeline DRAFT→REVIEW→ACTIVE). Este domínio cobre
       afirmações durante PLANEJAMENTO e BRAINSTORMING (ex: "técnica X tem 90% de acurácia
       segundo estudo Y"). Ambos são necessários — cobrem fases distintas.'
-  mobile_stores:
-    description: Politicas e precos das lojas de apps (App Store, Google Play)
-    mandatory_search: true
-    authoritative_sources:
-    - developer.apple.com/app-store/
-    - play.google.com/console/
-    source: 'local | 12-08-2026 21:39(GMT-04:00) | machine: 3ceef3bc'
 exempt_domains:
 - Sintaxe de linguagem de programação (Python, JS, SQL, Bash, etc.)
 - Algoritmos e estruturas de dados fundamentais (ordenação, grafos, etc.)

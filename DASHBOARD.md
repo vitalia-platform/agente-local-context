@@ -1,4 +1,4 @@
-<!-- DASHBOARD.md | Atualizado em: 12-08-2026 21:45:03(GMT-04:00) -->
+<!-- DASHBOARD.md | Atualizado em: 13-08-2026 17:09:53(GMT-04:00) -->
 
 # Dashboard de Contexto: .vitalia
 
@@ -12,7 +12,13 @@
 
 | Máquina | Tarefa Atual | Etapas | Status | Último Sync | Próximo Passo (P0) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **andrenote** (7f367bd3) | Observability Enhancement - Documentação e Manuais | Auditoria do código de observabilidade, atualização de ARCHITECTURE.md, EXERCICIOS-SDD.md e BENCH_TEST.md. Refatoração completa do ONBOARDING.md e INSTALL.md para Single Source of Truth. | Concluído | ⚠️ 08-08-2026 09:28:31(GMT-04:00) | Iniciar a Automação do Bench Test pipeline (criação de scripts e eventual integração visual com o Dashboard). |
+| **andrenote** (7f367bd3) | Feature 006: grounding-guard-rails + correção de regressões em workflows | - Implementação completa da Feature 006 (grounding guard rails v2)
+- Debug e correção de regressão crítica no brainstorming.toml
+- Correção cirúrgica em spec-specify.toml e spec-plan.toml
+- Criação de Correção estrutural.md com causa raiz e contratos comportamentais
+- Criação de publicar-repos.md com comandos de publicação no GitHub
+- Criação do README.md do Vitalia Kit (PT-BR, 348 linhas)
+ | Concluído | 13-08-2026 16:44:00(GMT-04:00) | Publicar repositórios no GitHub usando publicar-repos.md |
 
 ## Arquitetura de Contexto
 
@@ -27,4 +33,4 @@ graph TD
 | Arquivo | Status | Pendentes |
 | :--- | :--- | :--- |
 | `grounding-domains.yaml` (global) | ✅ Ativo | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 12-08-2026 17:45 | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 13-08-2026 13:09 | ✅ 0 pendentes |
