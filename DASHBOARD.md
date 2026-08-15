@@ -1,4 +1,4 @@
-<!-- DASHBOARD.md | Atualizado em: 13-08-2026 17:09:53(GMT-04:00) -->
+<!-- DASHBOARD.md | Atualizado em: 15-08-2026 18:13:07(GMT-04:00) -->
 
 # Dashboard de Contexto: .vitalia
 
@@ -18,7 +18,7 @@
 - Criação de Correção estrutural.md com causa raiz e contratos comportamentais
 - Criação de publicar-repos.md com comandos de publicação no GitHub
 - Criação do README.md do Vitalia Kit (PT-BR, 348 linhas)
- | Concluído | 13-08-2026 16:44:00(GMT-04:00) | Publicar repositórios no GitHub usando publicar-repos.md |
+ | Concluído | ⚠️ 13-08-2026 16:44:00(GMT-04:00) | Publicar repositórios no GitHub usando publicar-repos.md |
 
 ## Arquitetura de Contexto
 
@@ -33,4 +33,4 @@ graph TD
 | Arquivo | Status | Pendentes |
 | :--- | :--- | :--- |
 | `grounding-domains.yaml` (global) | ✅ Ativo | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 13-08-2026 13:09 | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 15-08-2026 14:13 | ✅ 0 pendentes |
