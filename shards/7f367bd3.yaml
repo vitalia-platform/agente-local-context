@@ -1,7 +1,8 @@
 machine: andrenote
 machine_id: 7f367bd3
-last_sync: 17-08-2026 07:03:00(GMT-04:00)
-task: Feature 006: grounding-guard-rails + correção de regressões em workflows
-steps: Início de sessão, carregamento SSH, e publicação do repositório no GitHub (agente-local-spec-kit e agente-local).
+last_sync: 19-08-2026 15:06:35(GMT-04:00)
+task: "Feature 006: grounding-guard-rails + correção de regressões em workflows"
+steps: |
+  - Retomada da correção do kit
 status: Concluído
-p0: Iniciar o planejamento e documentação da próxima feature (Feature 007) ou iniciar um novo fluxo de trabalho.
+p0: "Publicar repositórios no GitHub usando publicar-repos.md"

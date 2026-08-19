@@ -1,4 +1,4 @@
-<!-- DASHBOARD.md | Atualizado em: 17-08-2026 07:08:00(GMT-04:00) -->
+<!-- DASHBOARD.md | Atualizado em: 19-08-2026 15:07:30(GMT-04:00) -->
 
 # Dashboard de Contexto: .vitalia
 
@@ -12,14 +12,15 @@
 
 | Máquina | Tarefa Atual | Etapas | Status | Último Sync | Próximo Passo (P0) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Unknown** (Unknown) | Unknown | Unknown | Unknown | Unknown | Unknown |
+| **andrenote** (7f367bd3) | Feature 006: grounding-guard-rails + correção de regressões em workflows | - Retomada da correção do kit
+ | Concluído | 19-08-2026 15:06:35(GMT-04:00) | Publicar repositórios no GitHub usando publicar-repos.md |
 
 ## Arquitetura de Contexto
 
 ```mermaid
 graph TD
   Raiz["Repositório Raiz (.vitalia)"]
-  Unknown["Shard: Unknown"] --> Raiz
+  7f367bd3["Shard: andrenote"] --> Raiz
 ```
 
 ## Guard Rails de Grounding
@@ -27,4 +28,4 @@ graph TD
 | Arquivo | Status | Pendentes |
 | :--- | :--- | :--- |
 | `grounding-domains.yaml` (global) | ✅ Ativo | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 17-08-2026 03:08 | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 19-08-2026 11:07 | ✅ 0 pendentes |
