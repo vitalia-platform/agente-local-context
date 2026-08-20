@@ -1,12 +1,12 @@
 # grounding-domains-local.yaml | GERADO pelo vitalia_context_engine.py
 # NAO EDITE ESTE ARQUIVO — use data/grounding-domains.jsonl para customizar
-# Ultima geracao: 19-08-2026 20:22:57(GMT-04:00)
+# Ultima geracao: 20-08-2026 12:20:30(GMT-04:00)
 # Pendentes de curacao: 0
 
 base_version: unknown
 local_entries: 0
 pending_curadoria: 0
-last_generated: 19-08-2026 20:22:57(GMT-04:00)
+last_generated: 20-08-2026 12:20:30(GMT-04:00)
 domains:
   python_packages:
     description: Para validar bibliotecas, versões compatíveis e breaking changes
