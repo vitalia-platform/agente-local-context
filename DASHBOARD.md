@@ -1,4 +1,4 @@
-<!-- DASHBOARD.md | Atualizado em: 19-08-2026 20:18:11(GMT-04:00) -->
+<!-- DASHBOARD.md | Atualizado em: 19-08-2026 20:22:57(GMT-04:00) -->
 
 # Dashboard de Contexto: .vitalia
 
@@ -36,4 +36,4 @@ graph TD
 | Arquivo | Status | Pendentes |
 | :--- | :--- | :--- |
 | `grounding-domains.yaml` (global) | ✅ Ativo | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 19-08-2026 16:18 | ⚠️ 2 entradas aguardando curação |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 19-08-2026 16:22 | ✅ 0 pendentes |
