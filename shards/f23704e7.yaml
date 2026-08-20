@@ -1,0 +1,14 @@
+# f23704e7.yaml | Atualizado em: 19-08-2026 20:17:00(GMT-04:00)
+machine: "andre-desktop"
+machine_id: "f23704e7"
+last_sync: "19-08-2026 20:17:00(GMT-04:00)"
+task: "Correção do Workflow de Brainstorming — Vitalia Kit"
+steps: |
+  - Varredura completa do kit antigo (vitalia-agent-kit-main) e kit atual
+  - Pesquisa de indústria: Policy Evaluation Layer, PEV cycle, Task Verification
+  - Criado: ~/.vitalia/kit/config/dynamic-questioning.yaml (9 domínios, P0 saúde/privacidade)
+  - Criado: ~/.vitalia/kit/scripts/hooks/scan_environment.py (scan passivo agnóstico)
+  - Atualizado: brainstorming.toml v0.4.0 → v0.5.0 (hook before, STOP/SCAN/ASK/WAIT, Sub-Agente Pesquisador)
+  - Emendado: architect-constitution.md — Artigo I agora reflete ciclo PEV de 6 etapas
+status: "Concluído"
+p0: "Analisar e incorporar agentes e workflows do vitalia-agent-kit-main no kit atual (Feature 008)"
