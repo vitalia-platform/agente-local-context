@@ -1,10 +1,10 @@
-<!-- README.md | Atualizado em: 21-08-2026 14:50:53(GMT-04:00) -->
+<!-- README.md | Atualizado em: 21-08-2026 15:04:06(GMT-04:00) -->
 
 # Dashboard de Contexto: .vitalia
 
 ## Semáforo de Sincronização
 
-- **Status:** LIVRE | **Data:** 21-08-2026 14:50:53(GMT-04:00)
+- **Status:** LIVRE | **Data:** 21-08-2026 15:04:06(GMT-04:00)
 - **Máquina:** N/A
 - **Expira em:** N/A
 
@@ -40,4 +40,4 @@ graph TD
 | Arquivo | Status | Pendentes |
 | :--- | :--- | :--- |
 | `grounding-domains.yaml` (global) | ✅ Ativo | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 21-08-2026 10:50 | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 21-08-2026 11:04 | ✅ 0 pendentes |

@@ -1,18 +1,7 @@
 machine: andrenote
 machine_id: 7f367bd3
-last_sync: 21-08-2026 14:44:16(GMT-04:00)
-task: 'Feature 007: Guardian de Contexto + LLM-as-Judge'
-steps: '- Brainstorming completo: arquitetura de contexto, guardian_context.py, LLM-as-Judge,
-  scan_environment.py melhorado
-
-  - Pesquisa de indústria: Context Rot, Reward Hacking, Guardrails deterministicos
-
-  - Verificação de conectividade: Redis OK, Qwen NO2 OK
-
-  - Decisões registradas no JSONL (grounding curadoria, stdlib-only, scan real)
-
-  - resultado.md escrito como briefing instrucional para próxima sessão
-
-  - Specs 007/008 antigas deletadas (inadequadas)'
+last_sync: 21-08-2026 16:38:23(GMT-04:00)
+task: Feature 007 - Guardian de Contexto
+steps: Finalização do tasks.md, implementação do guardian_context, scan_environment, llm_judge, hooks TOML, testes.
 status: Concluído
-p0: Iniciar SDD Feature 007 via /vitalia-spec-specify na próxima sessão
+p0: Realizar testes de integração ponta-a-ponta do Guardian durante a próxima feature
