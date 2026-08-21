@@ -1,4 +1,4 @@
-<!-- LEARNINGS.md | Atualizado em: 21-08-2026 15:04:06(GMT-04:00) -->
+<!-- LEARNINGS.md | Atualizado em: 21-08-2026 17:31:13(GMT-04:00) -->
 
 # Aprendizados da Sessão
 
@@ -9,3 +9,6 @@
 - [KIT] knowledge-curator (auto-expansão do kit) existe no vitalia-agent-kit-main mas não tem equivalente no kit atual — gap registrado como Feature 008 para próxima sessão. `[f23704e7]`
 - Para evitar Context Drift, pesquisamos 3 opções de sanitização em transição de fase: 1. Progress -> Compress -> Reset (Modular Handoff), 2. Proactive Data Vaulting, 3. Revisitable Memory com Circuit Breakers. A serem decididas futuramente. `[62a9aef0]`
 - IMPORTANTE: Ao iniciar esta sessão, ler OBRIGATORIAMENTE o arquivo 'resultado.md' na raiz do projeto (agente-local/resultado.md). Ele contém o briefing completo do brainstorming de 21-08-2026, as decisões arquiteturais registradas e as instruções comportamentais para simulação da Feature 007 enquanto o código ainda não existe. Lê-lo é pré-condição para iniciar qualquer trabalho. `[7f367bd3]`
+- [KIT] Hooks stdlib-only (scan_environment.py / guardian_context.py) que dependem de variáveis de ambiente necessitam que o .env esteja carregado no processo ou que haja parser nativo para que os probes de rede ativos (Redis/Ollama) executem sem fallback. `[7f367bd3]`
+- [KIT] A validação de hooks de infraestrutura deve ser sempre acompanhada de suíte E2E com o .venv do projeto para disparar tráfego real contra containers Docker locais. `[7f367bd3]`
+- [PROJETO] Suíte E2E criada em tests/test_e2e_feature_007.py para validação contínua dos guardrails de contexto e conectividade de infraestrutura. `[7f367bd3]`
