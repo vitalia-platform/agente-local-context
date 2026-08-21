@@ -1,8 +1,18 @@
 machine: andrenote
 machine_id: 7f367bd3
-last_sync: 19-08-2026 15:06:35(GMT-04:00)
-task: "Feature 006: grounding-guard-rails + correção de regressões em workflows"
-steps: |
-  - Retomada da correção do kit
+last_sync: 21-08-2026 14:44:16(GMT-04:00)
+task: 'Feature 007: Guardian de Contexto + LLM-as-Judge'
+steps: '- Brainstorming completo: arquitetura de contexto, guardian_context.py, LLM-as-Judge,
+  scan_environment.py melhorado
+
+  - Pesquisa de indústria: Context Rot, Reward Hacking, Guardrails deterministicos
+
+  - Verificação de conectividade: Redis OK, Qwen NO2 OK
+
+  - Decisões registradas no JSONL (grounding curadoria, stdlib-only, scan real)
+
+  - resultado.md escrito como briefing instrucional para próxima sessão
+
+  - Specs 007/008 antigas deletadas (inadequadas)'
 status: Concluído
-p0: "Publicar repositórios no GitHub usando publicar-repos.md"
+p0: Iniciar SDD Feature 007 via /vitalia-spec-specify na próxima sessão

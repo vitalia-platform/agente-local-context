@@ -1,12 +1,12 @@
 # grounding-domains-local.yaml | GERADO pelo vitalia_context_engine.py
 # NAO EDITE ESTE ARQUIVO — use data/grounding-domains.jsonl para customizar
-# Ultima geracao: 20-08-2026 12:20:30(GMT-04:00)
+# Ultima geracao: 21-08-2026 14:50:53(GMT-04:00)
 # Pendentes de curacao: 0
 
 base_version: unknown
 local_entries: 0
 pending_curadoria: 0
-last_generated: 20-08-2026 12:20:30(GMT-04:00)
+last_generated: 21-08-2026 14:50:53(GMT-04:00)
 domains:
   python_packages:
     description: Para validar bibliotecas, versões compatíveis e breaking changes
@@ -100,5 +100,24 @@ domains:
       required:
       - regulation_name
       - compliance_requirement
+      - verified_url
+  llm_agent_reliability:
+    description: 'Padrões de falha de LLMs em pipelines agênticos: Context Rot (dilução
+      de instruções com contexto longo), Reward Hacking (otimização do caminho mais
+      curto via RLHF), Instruction Hierarchy Collapse, e estratégias de mitigação
+      (Guardrails determinísticos, LLM-as-Judge, State Machines, Narrow Tooling).'
+    authoritative_source: morphllm.com, mariusmanolachi.com, arxiv.org, dev.to
+    validation_schema:
+      type: object
+      properties:
+        pattern_name:
+          type: string
+        mitigation_strategy:
+          type: string
+        verified_url:
+          type: string
+          format: uri
+      required:
+      - pattern_name
       - verified_url
 exempt_domains: []
