@@ -1,4 +1,4 @@
-<!-- DECISIONS.md | Atualizado em: 21-08-2026 17:31:13(GMT-04:00) -->
+<!-- DECISIONS.md | Atualizado em: 21-08-2026 20:36:57(GMT-04:00) -->
 
 # Decisões Arquiteturais
 
@@ -15,3 +15,6 @@
 - [ARCH] Curadoria do grounding-domains.jsonl (promoção de entradas local→global, rejeição) deve ser responsabilidade exclusiva do workflow session-end, com etapa HITL que consulte o usuário. Curadoria manual direta nos arquivos é inaceitável. `[7f367bd3]`
 - [KIT] scan_environment.py deve: (1) probar conectividade real de Redis (import dinâmico + ping com timeout), (2) probar Ollama/NO2 via HTTP, (3) usar sufixo PID no output (env_context_<pid>.json) para evitar colisão entre workflows paralelos, (4) detectar e reportar VIRTUAL_ENV ativo. `[7f367bd3]`
 - [KIT] Padrão Vitalia para scripts invocados por hooks .toml: Opção C — stdlib-only obrigatório. Módulos externos (redis, requests, ollama) são importados dinamicamente com try/except, nunca como dependência rígida. Garante funcionamento em qualquer Python 3 sem venv. `[7f367bd3]`
+- Criado helper kit_env_bootstrap.py com auto-descoberta de raiz, parser .env nativo e injecao de site-packages do .venv no sys.path para todos os hooks do kit. `[7f367bd3]`
+- Adotado menu interativo com 3 opcoes (Autocorrecao, Fallback de degradacao, Parada imediata) em caso de .env/.venv ausentes ou containers desligados. `[7f367bd3]`
+- Hooks usam REDIS_URL e NO2_SERVER_IP reais para verificar saude dos servicos em tempo real. `[7f367bd3]`

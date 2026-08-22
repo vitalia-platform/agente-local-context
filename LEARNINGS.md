@@ -1,4 +1,4 @@
-<!-- LEARNINGS.md | Atualizado em: 21-08-2026 17:31:13(GMT-04:00) -->
+<!-- LEARNINGS.md | Atualizado em: 21-08-2026 20:36:57(GMT-04:00) -->
 
 # Aprendizados da Sessão
 
@@ -12,3 +12,7 @@
 - [KIT] Hooks stdlib-only (scan_environment.py / guardian_context.py) que dependem de variáveis de ambiente necessitam que o .env esteja carregado no processo ou que haja parser nativo para que os probes de rede ativos (Redis/Ollama) executem sem fallback. `[7f367bd3]`
 - [KIT] A validação de hooks de infraestrutura deve ser sempre acompanhada de suíte E2E com o .venv do projeto para disparar tráfego real contra containers Docker locais. `[7f367bd3]`
 - [PROJETO] Suíte E2E criada em tests/test_e2e_feature_007.py para validação contínua dos guardrails de contexto e conectividade de infraestrutura. `[7f367bd3]`
+- [KIT] O isolamento em stdlib-only puro sem acoplamento ao workspace gerava falsos negativos em subshells desacoplados. O padrão arquitetural correto é Bootstrap de Venv/.env com Injeção dinâmica de sys.path, Fallback Gracioso e Consulta HITL. `[7f367bd3]`
+- [KIT] A injeção dinâmica de site-packages do virtualenv em sys.path permite que hooks globais acessem bibliotecas do projeto (redis, requests, pydantic) sem exigir ativação manual de venv no shell. `[7f367bd3]`
+- [KIT] Protocolo HITL com menu de 3 opções (Autocorreção assistida, Fallback de degradação, Parada) assegura governança e transparência diante de falhas de infraestrutura. `[7f367bd3]`
+- [PROJETO] A manutenção de fontes do kit em manutencao_kit/ no repositório local garante versionamento e rastreabilidade dos scripts instalados no diretório global ~/.vitalia/kit/. `[7f367bd3]`

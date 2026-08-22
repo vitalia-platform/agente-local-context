@@ -1,10 +1,17 @@
 machine: andrenote
 machine_id: 7f367bd3
-last_sync: 21-08-2026 17:04:25(GMT-04:00)
-task: Feature 007 - Testes de Integracao e E2E do Guardian de Contexto
+last_sync: 21-08-2026 20:36:50(GMT-04:00)
+task: Feature 007 (Emenda 1) - Environment Bootstrap, Probes Ativos e Menu HITL
 steps:
-  - Validacao de 23 testes unitarios e de integracao (guardian, scan, llm_judge, TOMLs).
-  - Criacao e execucao da suite de teste E2E (tests/test_e2e_feature_007.py) com .env, Redis Docker vivo e Ollama NO2.
-  - Relatorio formal de testes consolidado em test_report_feature_007.md.
+- Criacao do modulo central de bootstrap (kit_env_bootstrap.py) com parser nativo
+  .env e injecao de sys.path da .venv.
+- Implementacao do Protocolo HITL com menu de 3 opcoes (Autocorrecao, Fallback, Parar)
+  para falhas de infraestrutura.
+- Atualizacao dos hooks guardian_context.py, scan_environment.py e llm_judge.py com
+  probes reais de Redis e Ollama NO2.
+- Execucao do ciclo SDD completo (spec, plan, tasks, analyze, implement, report).
+- Validacao de 11 testes automatizados (pytest tests/test_env_bootstrap.py tests/test_e2e_feature_007.py)
+  com 100% de sucesso.
 status: Concluído
-p0: Refatoracao do mecanismo de exibicao de contexto no repositorio da nuvem (vitalia_context_engine.py e README.md visual — Feature 008)
+p0: Iniciar Feature 008 (Refatoracao do Motor de Contexto vitalia_context_engine.py,
+  state/semaphore.json e README.md visual)
