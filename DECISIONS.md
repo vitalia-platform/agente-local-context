@@ -1,4 +1,4 @@
-<!-- DECISIONS.md | Atualizado em: 21-08-2026 20:38:07(GMT-04:00) -->
+<!-- DECISIONS.md | Atualizado em: 22-08-2026 10:09:50(GMT-04:00) -->
 
 # Decisões Arquiteturais
 
@@ -18,3 +18,5 @@
 - Criado helper kit_env_bootstrap.py com auto-descoberta de raiz, parser .env nativo e injecao de site-packages do .venv no sys.path para todos os hooks do kit. `[7f367bd3]`
 - Adotado menu interativo com 3 opcoes (Autocorrecao, Fallback de degradacao, Parada imediata) em caso de .env/.venv ausentes ou containers desligados. `[7f367bd3]`
 - Hooks usam REDIS_URL e NO2_SERVER_IP reais para verificar saude dos servicos em tempo real. `[7f367bd3]`
+- [DECISÃO] Adoção do padrão Layered Evaluation Architecture (Chão Determinístico em código para permissão de ferramentas por fase + Teto Semântico no LLM Judge local Qwen para aderência à Constituição/regras clínicas). `[7f367bd3]`
+- [DECISÃO] Priorização estrita da Feature 008 no saneamento de débitos técnicos (motor de contexto e semáforo isolado em state/semaphore.json), postergando incorporação de novos agentes para ciclos futuros. `[7f367bd3]`
