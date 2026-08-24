@@ -1,10 +1,10 @@
-<!-- README.md | Atualizado em: 22-08-2026 10:09:50(GMT-04:00) -->
+<!-- README.md | Atualizado em: 24-08-2026 12:04:25(GMT-04:00) -->
 
 # Dashboard de Contexto: .vitalia
 
 ## Semáforo de Sincronização
 
-- **Status:** LIVRE | **Data:** 22-08-2026 10:09:50(GMT-04:00)
+- **Status:** LIVRE | **Data:** 24-08-2026 12:04:25(GMT-04:00)
 - **Máquina:** N/A
 - **Expira em:** N/A
 
@@ -12,7 +12,7 @@
 
 | Máquina | Tarefa Atual | Etapas | Status | Último Sync | Próximo Passo (P0) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **andrenote** (7f367bd3) | Benchmark de Indústria, Saneamento de Testes e Sincronização do Kit Global | ['Benchmark e auditoria de conformidade das decisões do resultado.md contra padrões de indústria de AI Agents 2025/2026 (Context Rot, Layered Evaluation, OWASP LLM06).', 'Autópsia comportamental e diagnóstico sobre inspeção empírica de código vs execução de hooks.', 'Sincronização 100% dos componentes (kit_env_bootstrap.py, guardian_context.py, scan_environment.py, llm_judge.py) de manutencao_kit/ para o Kit Global (~/.vitalia/kit/).', 'Refatoração dos testes (test_e2e_feature_007.py e conftest.py) para consumo exclusivo de kit_env_bootstrap.init(), eliminando funções manuais em stdlib.', 'Remoção da pasta de staging manutencao_kit/ e validação pura de 11 testes automatizados (unitários e E2E) no .venv e Python global.', 'Comprovação do tráfego TCP real e contadores de comandos no container vitalia_redis.'] | Concluído | 22-08-2026 10:08:30(GMT-04:00) | Iniciar ciclo SDD da Feature 008 (Refatoração do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual) |
+| **andrenote** (7f367bd3) | Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI) | ['Auditoria de Git e Repositórios da Tríade de Projetos', 'Briefing Canônico de Arquitetura (docs/BRIEFING_ARQUITETURA_CONTROLE_CONTEXTO.md)', 'Mockup Visual temp.md (Shields.io, Mermaid centralizado M_ e tabelas HTML)', 'PRD Técnico com Matriz Diferencial Modo Integrado vs Standalone (docs/PRD_CONTROLE_CONTEXTO_VITALIA.md)', 'Assentamento da Regra Geral Vitalia de Strict Fallback em learnings.jsonl'] | Concluído | 24-08-2026 12:02:30(GMT-04:00) | Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar spec.md e plan.md com base no PRD |
 | **andre-desktop** (f23704e7) | Correção do Workflow de Brainstorming — Vitalia Kit | - Varredura completa do kit antigo (vitalia-agent-kit-main) e kit atual
 - Pesquisa de indústria: Policy Evaluation Layer, PEV cycle, Task Verification
 - Criado: ~/.vitalia/kit/config/dynamic-questioning.yaml (9 domínios, P0 saúde/privacidade)
@@ -35,4 +35,4 @@ graph TD
 | Arquivo | Status | Pendentes |
 | :--- | :--- | :--- |
 | `grounding-domains.yaml` (global) | ✅ Ativo | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 22-08-2026 06:09 | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 24-08-2026 08:04 | ✅ 0 pendentes |

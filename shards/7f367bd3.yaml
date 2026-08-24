@@ -1,13 +1,13 @@
 machine: andrenote
 machine_id: 7f367bd3
-last_sync: 22-08-2026 10:08:30(GMT-04:00)
-task: Benchmark de Indústria, Saneamento de Testes e Sincronização do Kit Global
+last_sync: 24-08-2026 12:02:30(GMT-04:00)
+task: Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI)
 steps:
-- Benchmark e auditoria de conformidade das decisões do resultado.md contra padrões de indústria de AI Agents 2025/2026 (Context Rot, Layered Evaluation, OWASP LLM06).
-- Autópsia comportamental e diagnóstico sobre inspeção empírica de código vs execução de hooks.
-- Sincronização 100% dos componentes (kit_env_bootstrap.py, guardian_context.py, scan_environment.py, llm_judge.py) de manutencao_kit/ para o Kit Global (~/.vitalia/kit/).
-- Refatoração dos testes (test_e2e_feature_007.py e conftest.py) para consumo exclusivo de kit_env_bootstrap.init(), eliminando funções manuais em stdlib.
-- Remoção da pasta de staging manutencao_kit/ e validação pura de 11 testes automatizados (unitários e E2E) no .venv e Python global.
-- Comprovação do tráfego TCP real e contadores de comandos no container vitalia_redis.
+- Auditoria de Git e Repositórios da Tríade de Projetos
+- Briefing Canônico de Arquitetura (docs/BRIEFING_ARQUITETURA_CONTROLE_CONTEXTO.md)
+- Mockup Visual temp.md (Shields.io, Mermaid centralizado M_ e tabelas HTML)
+- PRD Técnico com Matriz Diferencial Modo Integrado vs Standalone (docs/PRD_CONTROLE_CONTEXTO_VITALIA.md)
+- Assentamento da Regra Geral Vitalia de Strict Fallback em learnings.jsonl
 status: Concluído
-p0: Iniciar ciclo SDD da Feature 008 (Refatoração do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)
+p0: Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar
+  spec.md e plan.md com base no PRD

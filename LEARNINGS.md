@@ -1,4 +1,4 @@
-<!-- LEARNINGS.md | Atualizado em: 22-08-2026 10:09:50(GMT-04:00) -->
+<!-- LEARNINGS.md | Atualizado em: 24-08-2026 12:04:25(GMT-04:00) -->
 
 # Aprendizados da Sessão
 
@@ -19,3 +19,4 @@
 - [KIT] Test harnesses de infraestrutura não devem reimplementar lógica auxiliar de parsing nem fazer monkeypatch de paths; devem consumir estritamente o módulo central kit_env_bootstrap.init(). `[7f367bd3]`
 - [KIT] O Redis por padrão (loglevel notice) não grava operações CRUD normais no stdout (docker logs); a auditoria de tráfego em tempo real deve ser feita via redis-cli monitor e info commandstats. `[7f367bd3]`
 - [PROJETO] A segregação clara entre specs de produto (agente-local/specs/) e specs da infraestrutura do Kit Global (~/.vitalia/kit/specs/) é um débito técnico essencial para eliminar ambiguidade de escopo do agente. `[7f367bd3]`
+- [KIT] Regra Geral Vitalia: O modo stdlib-only é ativado SE E SOMENTE SE a infraestrutura do agente-local não for detectada (Strict Fallback). Em presença do agente-local, o motor DEVE explorar toda a infraestrutura rica (.venv, Redis, barramento vitalia_events, WebSockets) para observabilidade em tempo real. `[7f367bd3]`
