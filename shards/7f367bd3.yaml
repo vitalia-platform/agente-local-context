@@ -1,13 +1,7 @@
 machine: andrenote
 machine_id: 7f367bd3
-last_sync: 24-08-2026 12:02:30(GMT-04:00)
-task: Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI)
-steps:
-- Auditoria de Git e Repositórios da Tríade de Projetos
-- Briefing Canônico de Arquitetura (docs/BRIEFING_ARQUITETURA_CONTROLE_CONTEXTO.md)
-- Mockup Visual temp.md (Shields.io, Mermaid centralizado M_ e tabelas HTML)
-- PRD Técnico com Matriz Diferencial Modo Integrado vs Standalone (docs/PRD_CONTROLE_CONTEXTO_VITALIA.md)
-- Assentamento da Regra Geral Vitalia de Strict Fallback em learnings.jsonl
+last_sync: 25-08-2026 21:12:59(GMT-04:00)
+task: Feature 008 (Refatoração Motor de Contexto)
+steps: Consolidação das specs 004 e 007 com BRIEFING_GUARDIAN_UNIVERSAL_CONTEXT.md
 status: Concluído
-p0: Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar
-  spec.md e plan.md com base no PRD
+p0: Iniciar SDD (Spec, Plan, Tasks, Implement) para a Feature 008, reescrevendo o guardian_context.py

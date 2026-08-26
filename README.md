@@ -1,10 +1,10 @@
-<!-- README.md | Atualizado em: 24-08-2026 12:04:25(GMT-04:00) -->
+<!-- README.md | Atualizado em: 25-08-2026 21:14:15(GMT-04:00) -->
 
 # Dashboard de Contexto: .vitalia
 
 ## Semáforo de Sincronização
 
-- **Status:** LIVRE | **Data:** 24-08-2026 12:04:25(GMT-04:00)
+- **Status:** LIVRE | **Data:** 25-08-2026 21:14:15(GMT-04:00)
 - **Máquina:** N/A
 - **Expira em:** N/A
 
@@ -12,7 +12,7 @@
 
 | Máquina | Tarefa Atual | Etapas | Status | Último Sync | Próximo Passo (P0) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **andrenote** (7f367bd3) | Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI) | ['Auditoria de Git e Repositórios da Tríade de Projetos', 'Briefing Canônico de Arquitetura (docs/BRIEFING_ARQUITETURA_CONTROLE_CONTEXTO.md)', 'Mockup Visual temp.md (Shields.io, Mermaid centralizado M_ e tabelas HTML)', 'PRD Técnico com Matriz Diferencial Modo Integrado vs Standalone (docs/PRD_CONTROLE_CONTEXTO_VITALIA.md)', 'Assentamento da Regra Geral Vitalia de Strict Fallback em learnings.jsonl'] | Concluído | 24-08-2026 12:02:30(GMT-04:00) | Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar spec.md e plan.md com base no PRD |
+| **andrenote** (7f367bd3) | Feature 008 (Refatoração Motor de Contexto) | Consolidação das specs 004 e 007 com BRIEFING_GUARDIAN_UNIVERSAL_CONTEXT.md | Concluído | 25-08-2026 21:12:59(GMT-04:00) | Iniciar SDD (Spec, Plan, Tasks, Implement) para a Feature 008, reescrevendo o guardian_context.py |
 | **andre-desktop** (f23704e7) | Correção do Workflow de Brainstorming — Vitalia Kit | - Varredura completa do kit antigo (vitalia-agent-kit-main) e kit atual
 - Pesquisa de indústria: Policy Evaluation Layer, PEV cycle, Task Verification
 - Criado: ~/.vitalia/kit/config/dynamic-questioning.yaml (9 domínios, P0 saúde/privacidade)
@@ -35,4 +35,4 @@ graph TD
 | Arquivo | Status | Pendentes |
 | :--- | :--- | :--- |
 | `grounding-domains.yaml` (global) | ✅ Ativo | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 24-08-2026 08:04 | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 25-08-2026 17:14 | ✅ 0 pendentes |
