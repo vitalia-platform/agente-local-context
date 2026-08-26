@@ -1,4 +1,4 @@
-<!-- README.md | Atualizado em: 26-08-2026 17:59:38(GMT-04:00) -->
+<!-- README.md | Atualizado em: 26-08-2026 18:04:57(GMT-04:00) -->
 
 # 🧠 Painel de Contexto — .vitalia
 
@@ -260,7 +260,7 @@ flowchart TD
 | Arquivo de Regras | Status | Domínios Monitorados | Pendentes de Curadoria HITL |
 | :--- | :---: | :--- | :---: |
 | `grounding-domains.yaml` (Global) | ✅ Ativo | `llm_models`, `python_packages`, `external_apis`, `security_practices`, `regulations`, `cloud_services`, `scientific_claims` | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (Projeto) | ✅ Presente — 26-08-2026 13:59 | Domínios locais específicos do workspace | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (Projeto) | ✅ Presente — 26-08-2026 14:04 | Domínios locais específicos do workspace | ✅ 0 pendentes |
 
 </details>
 
