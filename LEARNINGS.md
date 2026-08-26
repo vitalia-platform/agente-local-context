@@ -1,4 +1,4 @@
-<!-- LEARNINGS.md | Atualizado em: 25-08-2026 21:14:15(GMT-04:00) -->
+<!-- LEARNINGS.md | Atualizado em: 26-08-2026 15:38:40(GMT-04:00) -->
 
 # Aprendizados da Sessão
 
@@ -20,3 +20,5 @@
 - [KIT] O Redis por padrão (loglevel notice) não grava operações CRUD normais no stdout (docker logs); a auditoria de tráfego em tempo real deve ser feita via redis-cli monitor e info commandstats. `[7f367bd3]`
 - [PROJETO] A segregação clara entre specs de produto (agente-local/specs/) e specs da infraestrutura do Kit Global (~/.vitalia/kit/specs/) é um débito técnico essencial para eliminar ambiguidade de escopo do agente. `[7f367bd3]`
 - [KIT] Regra Geral Vitalia: O modo stdlib-only é ativado SE E SOMENTE SE a infraestrutura do agente-local não for detectada (Strict Fallback). Em presença do agente-local, o motor DEVE explorar toda a infraestrutura rica (.venv, Redis, barramento vitalia_events, WebSockets) para observabilidade em tempo real. `[7f367bd3]`
+- Hospedar arquivos de schema estruturados (como JSON schemas) fisicamente no kit e referenciá-los nos prompts impede a deriva alucinatória de metadados por LLMs durante operações de ledger (JSONL). `[f23704e7]`
+- O design de injeção de ambiente (kit_env_bootstrap.py) permite invocar scripts globais do kit contra repositórios independentes através do parâmetro explícito --cwd, mantendo as fontes isoladas sem duplicação. `[f23704e7]`
