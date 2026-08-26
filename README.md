@@ -1,4 +1,4 @@
-<!-- README.md | Atualizado em: 26-08-2026 15:47:29(GMT-04:00) -->
+<!-- README.md | Atualizado em: 26-08-2026 16:07:52(GMT-04:00) -->
 
 # 🧠 Painel de Contexto — .vitalia
 
@@ -93,6 +93,6 @@ flowchart TD
 | Arquivo | Status | Pendentes |
 | :--- | :--- | :--- |
 | `grounding-domains.yaml` (global) | ✅ Ativo | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 26-08-2026 11:47 | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (projeto) | ✅ Presente — 26-08-2026 12:07 | ✅ 0 pendentes |
 
 </details>
