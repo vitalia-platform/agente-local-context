@@ -1,4 +1,4 @@
-<!-- README.md | Atualizado em: 26-08-2026 18:04:57(GMT-04:00) -->
+<!-- README.md | Atualizado em: 26-08-2026 21:44:55(GMT-04:00) -->
 
 # 🧠 Painel de Contexto — .vitalia
 
@@ -20,11 +20,14 @@
 ```mermaid
 flowchart TD
   Cloud(("Nuvem Central (.vitalia)<br/>origin/main"))
+  M_7f367bd3["andrenote (7f367bd3)<br/>● Ativo (Em Sessão)<br/>Modo: Integrado"]
   M_f23704e7["andrenote (f23704e7)<br/>● Ativo (Em Sessão)<br/>Modo: Integrado"]
 
+  Cloud <-->|"25-08-2026 21:12:59(GMT-04:00)"| M_7f367bd3
   Cloud <-->|"26-08-2026 15:30:00(GMT-04:00)"| M_f23704e7
 
   style Cloud stroke:#0969da,stroke-width:2px,fill:#ddf4ff,color:#0969da
+  style M_7f367bd3 stroke:#2ea44f,stroke-width:2px,fill:#dafbe1,color:#1a7f37
   style M_f23704e7 stroke:#6e7781,stroke-width:1px,fill:#f6f8fa,color:#57606a
 
 ```
@@ -47,6 +50,14 @@ flowchart TD
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><strong>andrenote</strong><br/><code>7f367bd3</code></td>
+      <td>Feature 008 (Refatoração Motor de Contexto)</td>
+      <td align="center"><span style="background-color:#8250df;color:white;padding:2px 6px;border-radius:4px;font-size:11px;">Integrado</span></td>
+      <td align="center"><span style="color:#2ea44f;font-weight:bold;">● Concluído</span></td>
+      <td>25-08-2026 21:12:59(GMT-04:00)</td>
+      <td>Iniciar SDD (Spec, Plan, Tasks, Implement) para a Feature 008, reescrevendo o guardian_context.py</td>
+    </tr>
     <tr>
       <td><strong>andrenote</strong><br/><code>f23704e7</code></td>
       <td>Feature 008 - Refatoração Engine & Guardian (Finalizada)</td>
@@ -79,144 +90,137 @@ flowchart TD
 
 <br/>
 
-### ✅ Sessão Encerrada em 26-08-2026 15:31(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `Unknown` (`f23704e7`)
 - **Tarefa:** Feature 008 - Refatoração Engine & Guardian (Finalizada)
 - **Atividades:**
-  - - Isolamento dos schemas (learning/decision) exclusivamente no kit
-  - Atualização unificada de hooks para scan_environment.py
-  - Sincronização de Contratos_Comportamentais_contexto.md
-  - Validação prática do hook scan_environment com --cwd
+  - Sem resumo.
 - **Próximo Passo:** Rodar o comando /vitalia-session-consolidate
 
 ---
 
-### ✅ Sessão Encerrada em 25-08-2026 21:12:59(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** session_history
 - **Atividades:**
-  - - Consolidação do Briefing canônico e atualização das specs 004 e 007 (Separação de Dados e Views, semáforo em JSON, limpeza de atexit).
+  - Sem resumo.
 - **Próximo Passo:** Unknown
 
 ---
 
-### ✅ Sessão Encerrada em Unknown
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI)
 - **Atividades:**
-  - - Auditoria de Git e Repositórios da Tríade de Projetos
-  - Briefing Canônico de Arquitetura (docs/BRIEFING_ARQUITETURA_CONTROLE_CONTEXTO.md)
-  - Mockup Visual temp.md (Shields.io, Mermaid centralizado M_ e tabelas HTML)
-  - PRD Técnico com Matriz Diferencial Modo Integrado vs Standalone (docs/PRD_CONTROLE_CONTEXTO_VITALIA.md)
-  - Assentamento da Regra Geral Vitalia de Strict Fallback em learnings.jsonl
+  - Sem resumo.
 - **Próximo Passo:** Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar spec.md e plan.md com base no PRD
 
 ---
 
-### ✅ Sessão Encerrada em 22-08-2026 10:08(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Benchmark de Indústria, Saneamento de Testes e Sincronização do Kit Global
 - **Atividades:**
-  - - Auditoria de mercado das decisões do resultado.md, autópsia comportamental, sincronização integral de componentes para o Kit Global (~/.vitalia/kit/), refatoração de tests/test_e2e_feature_007.py e conftest.py para consumo exclusivo de kit_env_bootstrap.init(), remoção da pasta manutencao_kit/ e validação pura de 11 testes (unitários/E2E) com tráfego TCP confirmado no Redis.
+  - Sem resumo.
 - **Próximo Passo:** Iniciar ciclo SDD da Feature 008 (Refatoração do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)
 
 ---
 
-### ✅ Sessão Encerrada em 21-08-2026 20:36(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Feature 007 (Emenda 1) - Environment Bootstrap, Probes Ativos e Menu HITL
 - **Atividades:**
-  - - Ciclo SDD completo para a Emenda 1 da Feature 007. Implementado kit_env_bootstrap.py com parser nativo de .env e injecao de sys.path da .venv. Atualizados hooks guardian_context.py, scan_environment.py e llm_judge.py com probes reais. Suite de 11 testes automatizados aprovada com 100% de sucesso contra containers Docker e Ollama NO2.
+  - Sem resumo.
 - **Próximo Passo:** Iniciar Feature 008 (Refatoracao do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)
 
 ---
 
-### ✅ Sessão Encerrada em 21-08-2026 17:04(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Feature 007 - Testes de Integração e E2E do Guardian de Contexto
 - **Atividades:**
-  - - Validação completa da Feature 007: 23 testes unitários/integração + 5 testes E2E reais (tests/test_e2e_feature_007.py) com leitura de .env, tráfego TCP autenticado contra container Docker vitalia_redis (PING/SET/GET/DEL) e avaliação semântica no Ollama NO2.
+  - Sem resumo.
 - **Próximo Passo:** Refatoração do mecanismo de exibição de contexto no repositório da nuvem (vitalia_context_engine.py e README.md visual — Feature 008)
 
 ---
 
-### ✅ Sessão Encerrada em 21-08-2026 16:38:23(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `Unknown` (`7f367bd3`)
 - **Tarefa:** Feature 007 - Guardian de Contexto
 - **Atividades:**
-  - - Execução completa do tasks.md. Implementação do guardian_context.py (filtração por pid/token), scan_environment.py (probes reais) e llm_judge.py (gate SDD determinístico/Qwen). Configuração dos TOMLs (brainstorming e session-end).
+  - Sem resumo.
 - **Próximo Passo:** Testes end-to-end do Guardian na próxima feature simulada.
 
 ---
 
-### ✅ Sessão Encerrada em 21-08-2026 14:44:16(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Unknown Task
 - **Atividades:**
-  - - Brainstorming completo para Feature 007 (Guardian de Contexto + LLM-as-Judge). Decisões: stdlib-only nos hooks, guardian filtra SESSION_HISTORY por relevância, LLM-as-Judge (Qwen NO2) na spec 007, curadoria grounding = HITL no session-end, scan_environment.py com probe real, Feature 008 adiada para sessão separada. resultado.md escrito como briefing da próxima sessão.
+  - Sem resumo.
 - **Próximo Passo:** Iniciar SDD Feature 007 via /vitalia-spec-specify
 
 ---
 
-### ✅ Sessão Encerrada em 19-08-2026 20:17:00(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andre-desktop` (`f23704e7`)
 - **Tarefa:** Unknown Task
 - **Atividades:**
-  - - Correção do workflow de brainstorming: criado dynamic-questioning.yaml (9 domínios P0), scan_environment.py (hook passivo), atualizado brainstorming.toml v0.5.0 e emendado Artigo I da Constituição Vitalia (ciclo PEV de 6 etapas).
+  - Sem resumo.
 - **Próximo Passo:** Incorporar agentes vitalia-agent-kit-main no kit atual (Feature 008)
 
 ---
 
-### ✅ Sessão Encerrada em 19-08-2026 15:06:35(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões em workflows
 - **Atividades:**
-  - - Retomada da correção do kit
+  - Sem resumo.
 - **Próximo Passo:** Publicar repositórios no GitHub usando publicar-repos.md
 
 ---
 
-### ✅ Sessão Encerrada em 13-08-2026 16:44(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
 - **Atividades:**
-  - - Sem resumo detalhado.
+  - Sem resumo.
 - **Próximo Passo:** Publicar repositórios no GitHub usando publicar-repos.md
 
 ---
 
-### ✅ Sessão Encerrada em 13-08-2026 16:44(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
 - **Atividades:**
-  - - Sem resumo detalhado.
+  - Sem resumo.
 - **Próximo Passo:** Publicar repositórios no GitHub usando publicar-repos.md
 
 ---
 
-### ✅ Sessão Encerrada em 17-08-2026 07:03:00(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `Unknown` (`7f367bd3`)
 - **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões em workflows
 - **Atividades:**
-  - - Sem resumo detalhado.
+  - Sem resumo.
 - **Próximo Passo:** Iniciar o planejamento e documentação da próxima feature (Feature 007) ou iniciar um novo fluxo de trabalho.
 
 ---
 
-### ✅ Sessão Encerrada em 13-08-2026 16:44(GMT-04:00)
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `andrenote` (`7f367bd3`)
 - **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
 - **Atividades:**
-  - - Sem resumo detalhado.
+  - Sem resumo.
 - **Próximo Passo:** Publicar repositórios no GitHub usando publicar-repos.md
 
 ---
 
-### ✅ Sessão Encerrada em 2026-08-08T09:28:31-04:00
+### ✅ Sessão Encerrada em Desconhecida
 - **Máquina:** `Unknown` (`7f367bd3`)
 - **Tarefa:** Observability Enhancement - Documentação e Manuais
 - **Atividades:**
-  - - Sem resumo detalhado.
+  - Sem resumo.
 - **Próximo Passo:** Iniciar a Automação do Bench Test pipeline (criação de scripts e eventual integração visual com o Dashboard).
 
 ---
@@ -260,7 +264,7 @@ flowchart TD
 | Arquivo de Regras | Status | Domínios Monitorados | Pendentes de Curadoria HITL |
 | :--- | :---: | :--- | :---: |
 | `grounding-domains.yaml` (Global) | ✅ Ativo | `llm_models`, `python_packages`, `external_apis`, `security_practices`, `regulations`, `cloud_services`, `scientific_claims` | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (Projeto) | ✅ Presente — 26-08-2026 14:04 | Domínios locais específicos do workspace | ✅ 0 pendentes |
+| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (Projeto) | ✅ Presente | Domínios locais específicos do workspace | ✅ 0 pendentes |
 
 </details>
 
