@@ -1,4 +1,4 @@
-<!-- DECISIONS.md | Atualizado em: 27-08-2026 12:46:51(GMT-04:00) -->
+<!-- DECISIONS.md | Atualizado em: 27-08-2026 14:38:49(GMT-04:00) -->
 
 # Decisões Arquiteturais
 
