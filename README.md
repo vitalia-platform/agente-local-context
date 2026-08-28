@@ -1,4 +1,4 @@
-<!-- README.md | Atualizado em: 28-08-2026 09:13:21(GMT-04:00) -->
+<!-- README.md | Atualizado em: 28-08-2026 09:57:16(GMT-04:00) -->
 
 # 🧠 Painel de Contexto — agente-local
 

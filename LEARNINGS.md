@@ -1,7 +1,7 @@
-<!-- LEARNINGS.md | Atualizado em: 28-08-2026 09:13:21(GMT-04:00) -->
+<!-- LEARNINGS.md | Atualizado em: 28-08-2026 09:57:16(GMT-04:00) -->
 # 💡 Aprendizados Técnicos e Lições Aprendidas Consolidadas
 
-**Data/Hora de Geração:** `28-08-2026 09:13:21(GMT-04:00)` | **Fuso Horário:** America/Cuiaba `(GMT-04:00)`
+**Data/Hora de Geração:** `28-08-2026 09:57:16(GMT-04:00)` | **Fuso Horário:** America/Cuiaba `(GMT-04:00)`
 
 ## [PROJETO]
 - **Aprendizado:** [KIT] dynamic-questioning.yaml deve ser um Registry estruturado separado do prompt TOML. Permite extensão de domínios sem modificar o workflow.
