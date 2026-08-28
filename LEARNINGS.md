@@ -1,7 +1,7 @@
-<!-- LEARNINGS.md | Atualizado em: 28-08-2026 09:57:16(GMT-04:00) -->
+<!-- LEARNINGS.md | Atualizado em: 28-08-2026 12:18:06(GMT-04:00) -->
 # 💡 Aprendizados Técnicos e Lições Aprendidas Consolidadas
 
-**Data/Hora de Geração:** `28-08-2026 09:57:16(GMT-04:00)` | **Fuso Horário:** America/Cuiaba `(GMT-04:00)`
+**Data/Hora de Geração:** `28-08-2026 12:18:06(GMT-04:00)` | **Fuso Horário:** America/Cuiaba `(GMT-04:00)`
 
 ## [PROJETO]
 - **Aprendizado:** [KIT] dynamic-questioning.yaml deve ser um Registry estruturado separado do prompt TOML. Permite extensão de domínios sem modificar o workflow.
@@ -66,6 +66,15 @@
 - **Aprendizado:** O design de injeção de ambiente (kit_env_bootstrap.py) permite invocar scripts globais do kit contra repositórios independentes através do parâmetro explícito --cwd, mantendo as fontes isoladas sem duplicação.
   - **Racional:** Registro defasado
   - **Origem:** `f23704e7` | **Data:** 26-08-2026 15:31(GMT-04:00)
+- **Aprendizado:** 
+  - **Racional:** Registro defasado
+  - **Origem:** `7f367bd3` | **Data:** 28-08-2026 12:16(GMT-04:00)
+- **Aprendizado:** 
+  - **Racional:** Registro defasado
+  - **Origem:** `7f367bd3` | **Data:** 28-08-2026 12:16(GMT-04:00)
+- **Aprendizado:** 
+  - **Racional:** Registro defasado
+  - **Origem:** `7f367bd3` | **Data:** 28-08-2026 12:16(GMT-04:00)
 
 ## PROJETO
 - **Aprendizado:** 
@@ -74,6 +83,9 @@
 - **Aprendizado:** 
   - **Racional:** Registro defasado
   - **Origem:** `7f367bd3` | **Data:** 22-08-2026 10:08(GMT-04:00)
+- **Aprendizado:** 
+  - **Racional:** Registro defasado
+  - **Origem:** `7f367bd3` | **Data:** 28-08-2026 12:16(GMT-04:00)
 
 ## [KIT]
 - **Aprendizado:** Modular Monolith com Auto-Injeção de Sys.Path no topo de cada submódulo permite execução autônoma via CLI sem erros de import.

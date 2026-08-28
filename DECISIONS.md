@@ -1,7 +1,7 @@
-<!-- DECISIONS.md | Atualizado em: 28-08-2026 09:57:16(GMT-04:00) -->
+<!-- DECISIONS.md | Atualizado em: 28-08-2026 12:18:06(GMT-04:00) -->
 # 🏛️ Decisões de Arquitetura e Governança Consolidadas (ADRs)
 
-**Data/Hora de Geração:** `28-08-2026 09:57:16(GMT-04:00)` | **Fuso Horário:** America/Cuiaba `(GMT-04:00)`
+**Data/Hora de Geração:** `28-08-2026 12:18:06(GMT-04:00)` | **Fuso Horário:** America/Cuiaba `(GMT-04:00)`
 
 | ID | Categoria | Decisão | Racional | Máquina | Data |
 |---|---|---|---|---|---|
@@ -26,3 +26,4 @@
 | `7f00ea3d` | `[ARCH]` | Modular Monolith Flat Layout dividindo o Context Engine em core/, rendering/, hooks/ e maintenance/ | Desacopla responsabilidades, melhora a manutenibilidade e reduz o entrypoint raiz para <40 linhas mantendo 100% de compatibilidade stdlib. | `7f367bd3` | 28-08-2026 09:12:43(GMT-04:00) |
 | `94069e8d` | `[SECURITY]` | Schema-Safe Context Pruning para constitution_data.yaml com teto calibrado de 500 tokens | Evita context bloat e diluição de atenção do LLM sem comprometer as salvaguardas constitucionais obrigatórias. | `7f367bd3` | 28-08-2026 09:12:43(GMT-04:00) |
 | `a3265e04` | `[KIT]` | Avaliador Local Multi-Fase hooks/llm_judge.py com hierarquia estrita de severidades | Bloqueia (exit 1) apenas violações clínicas, de LGPD e de integridade SDD, tratando regras de didática e formatação como avisos (exit 2) com confirmação HITL. | `7f367bd3` | 28-08-2026 09:12:43(GMT-04:00) |
+| `f3a588e4aab8685c` | `ARQUITETURA` | Expansão do /vitalia-brainstorming como Hub Socrático orquestrador de 5 especialistas autônomos invocáveis diretamente via Slash Commands (/vitalia-design-thinking, /vitalia-literature-curator, /vitalia-visual-creator, /vitalia-medical-gate, /vitalia-architect), com isolamento de acervo em data_storage/. | Registro defasado | `7f367bd3` | 28-08-2026 12:16(GMT-04:00) |
