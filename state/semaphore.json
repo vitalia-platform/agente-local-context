@@ -1,6 +1,10 @@
 {
-  "status": "LIVRE",
-  "machine_id": null,
-  "expires_at": null,
-  "updated_at": "27-08-2026 14:38:49(GMT-04:00)"
+  "state": "FREE",
+  "locked_by": "",
+  "machine_id": "",
+  "machine_name": "",
+  "locked_at": "",
+  "expires_at": "",
+  "lease_token": "",
+  "lock_reason": ""
 }

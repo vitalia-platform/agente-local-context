@@ -1,20 +1,72 @@
-<!-- SESSION_HISTORY.md | Atualizado em: 27-08-2026 14:38:49(GMT-04:00) -->
+<!-- SESSION_HISTORY.md | Atualizado em: 28-08-2026 09:13:21(GMT-04:00) -->
+# 📜 Histórico Cronológico de Sessões
 
-# Histórico de Sessões
+**Data/Hora de Geração:** `28-08-2026 09:13:21(GMT-04:00)` | **Fuso Horário:** America/Cuiaba `(GMT-04:00)`
 
-- {"machine_name": "Unknown", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "2026-08-08T09:28:31-04:00", "task": "Observability Enhancement - Documentação e Manuais", "steps": ["Sem resumo detalhado."], "next_step": "Iniciar a Automação do Bench Test pipeline (criação de scripts e eventual integração visual com o Dashboard).", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "13-08-2026 16:44(GMT-04:00)", "task": "Feature 006: grounding-guard-rails + correção de regressões", "steps": ["Sem resumo detalhado."], "next_step": "Publicar repositórios no GitHub usando publicar-repos.md", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "Unknown", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "17-08-2026 07:03:00(GMT-04:00)", "task": "Feature 006: grounding-guard-rails + correção de regressões em workflows", "steps": ["Sem resumo detalhado."], "next_step": "Iniciar o planejamento e documentação da próxima feature (Feature 007) ou iniciar um novo fluxo de trabalho.", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "13-08-2026 16:44(GMT-04:00)", "task": "Feature 006: grounding-guard-rails + correção de regressões", "steps": ["Sem resumo detalhado."], "next_step": "Publicar repositórios no GitHub usando publicar-repos.md", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "13-08-2026 16:44(GMT-04:00)", "task": "Feature 006: grounding-guard-rails + correção de regressões", "steps": ["Sem resumo detalhado."], "next_step": "Publicar repositórios no GitHub usando publicar-repos.md", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "19-08-2026 15:06:35(GMT-04:00)", "task": "Feature 006: grounding-guard-rails + correção de regressões em workflows", "steps": ["Retomada da correção do kit"], "next_step": "Publicar repositórios no GitHub usando publicar-repos.md", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andre-desktop", "machine_id": "f23704e7", "mode": "auto", "last_sync": "19-08-2026 20:17:00(GMT-04:00)", "task": "Unknown Task", "steps": ["Correção do workflow de brainstorming: criado dynamic-questioning.yaml (9 domínios P0), scan_environment.py (hook passivo), atualizado brainstorming.toml v0.5.0 e emendado Artigo I da Constituição Vitalia (ciclo PEV de 6 etapas)."], "next_step": "Incorporar agentes vitalia-agent-kit-main no kit atual (Feature 008)", "status": "Concluído"} `[f23704e7]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "21-08-2026 14:44:16(GMT-04:00)", "task": "Unknown Task", "steps": ["Brainstorming completo para Feature 007 (Guardian de Contexto + LLM-as-Judge). Decisões: stdlib-only nos hooks, guardian filtra SESSION_HISTORY por relevância, LLM-as-Judge (Qwen NO2) na spec 007, curadoria grounding = HITL no session-end, scan_environment.py com probe real, Feature 008 adiada para sessão separada. resultado.md escrito como briefing da próxima sessão."], "next_step": "Iniciar SDD Feature 007 via /vitalia-spec-specify", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "Unknown", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "21-08-2026 16:38:23(GMT-04:00)", "task": "Feature 007 - Guardian de Contexto", "steps": ["Execução completa do tasks.md. Implementação do guardian_context.py (filtração por pid/token), scan_environment.py (probes reais) e llm_judge.py (gate SDD determinístico/Qwen). Configuração dos TOMLs (brainstorming e session-end)."], "next_step": "Testes end-to-end do Guardian na próxima feature simulada.", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "21-08-2026 17:04(GMT-04:00)", "task": "Feature 007 - Testes de Integração e E2E do Guardian de Contexto", "steps": ["Validação completa da Feature 007: 23 testes unitários/integração + 5 testes E2E reais (tests/test_e2e_feature_007.py) com leitura de .env, tráfego TCP autenticado contra container Docker vitalia_redis (PING/SET/GET/DEL) e avaliação semântica no Ollama NO2."], "next_step": "Refatoração do mecanismo de exibição de contexto no repositório da nuvem (vitalia_context_engine.py e README.md visual — Feature 008)", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "21-08-2026 20:36(GMT-04:00)", "task": "Feature 007 (Emenda 1) - Environment Bootstrap, Probes Ativos e Menu HITL", "steps": ["Ciclo SDD completo para a Emenda 1 da Feature 007. Implementado kit_env_bootstrap.py com parser nativo de .env e injecao de sys.path da .venv. Atualizados hooks guardian_context.py, scan_environment.py e llm_judge.py com probes reais. Suite de 11 testes automatizados aprovada com 100% de sucesso contra containers Docker e Ollama NO2."], "next_step": "Iniciar Feature 008 (Refatoracao do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "22-08-2026 10:08(GMT-04:00)", "task": "Benchmark de Indústria, Saneamento de Testes e Sincronização do Kit Global", "steps": ["Auditoria de mercado das decisões do resultado.md, autópsia comportamental, sincronização integral de componentes para o Kit Global (~/.vitalia/kit/), refatoração de tests/test_e2e_feature_007.py e conftest.py para consumo exclusivo de kit_env_bootstrap.init(), remoção da pasta manutencao_kit/ e validação pura de 11 testes (unitários/E2E) com tráfego TCP confirmado no Redis."], "next_step": "Iniciar ciclo SDD da Feature 008 (Refatoração do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "Unknown", "task": "Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI)", "steps": ["Auditoria de Git e Repositórios da Tríade de Projetos", "Briefing Canônico de Arquitetura (docs/BRIEFING_ARQUITETURA_CONTROLE_CONTEXTO.md)", "Mockup Visual temp.md (Shields.io, Mermaid centralizado M_ e tabelas HTML)", "PRD Técnico com Matriz Diferencial Modo Integrado vs Standalone (docs/PRD_CONTROLE_CONTEXTO_VITALIA.md)", "Assentamento da Regra Geral Vitalia de Strict Fallback em learnings.jsonl"], "next_step": "Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar spec.md e plan.md com base no PRD", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "andrenote", "machine_id": "7f367bd3", "mode": "auto", "last_sync": "25-08-2026 21:12:59(GMT-04:00)", "task": "session_history", "steps": ["Consolidação do Briefing canônico e atualização das specs 004 e 007 (Separação de Dados e Views, semáforo em JSON, limpeza de atexit)."], "next_step": "Unknown", "status": "Concluído"} `[7f367bd3]`
-- {"machine_name": "Unknown", "machine_id": "f23704e7", "mode": "auto", "last_sync": "26-08-2026 15:31(GMT-04:00)", "task": "Feature 008 - Refatoração Engine & Guardian (Finalizada)", "steps": ["Isolamento dos schemas (learning/decision) exclusivamente no kit", "Atualização unificada de hooks para scan_environment.py", "Sincronização de Contratos_Comportamentais_contexto.md", "Validação prática do hook scan_environment com --cwd"], "next_step": "Rodar o comando /vitalia-session-consolidate", "status": "Concluído"} `[f23704e7]`
-- {"id": "e46667cdc0eccbe2", "machine_id": "f23704e7", "timestamp": "26-08-2026 22:07(GMT-04:00)", "task": "Feature 008-context-engine", "steps": "Refatoração do motor de contexto (OOP), inclusão do timeout anti-deadlock de 15s no Git e criação do vitalia_hook_runner.py para parsing nativo (Opção C).", "p0": "Validação das views consolidadas (Dashboard, DECISIONS.md, LEARNINGS.md) no repositório remoto ou iniciar Feature 009.", "status": "Concluído"} `[f23704e7]`
+### 🕒 28-08-2026 09:12:43(GMT-04:00) — `andrenote`
+- **Tarefa:** Feature 009: Refatoração Estrutural e Governança SDD do Vitalia Kit
+- **Próximo Passo (P0):** `Iniciar próxima feature do roadmap Vitalia (Feature 010) ou sincronizar via /vitalia-session-consolidate`
+
+### 🕒 26-08-2026 22:07(GMT-04:00) — `f23704e7`
+- **Tarefa:** Feature 008-context-engine
+- **Próximo Passo (P0):** `Validação das views consolidadas (Dashboard, DECISIONS.md, LEARNINGS.md) no repositório remoto ou iniciar Feature 009.`
+
+### 🕒  — `Unknown`
+- **Tarefa:** Feature 008 - Refatoração Engine & Guardian (Finalizada)
+- **Próximo Passo (P0):** `Rodar o comando /vitalia-session-consolidate`
+
+### 🕒  — `andrenote`
+- **Tarefa:** session_history
+- **Próximo Passo (P0):** `Unknown`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI)
+- **Próximo Passo (P0):** `Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar spec.md e plan.md com base no PRD`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Benchmark de Indústria, Saneamento de Testes e Sincronização do Kit Global
+- **Próximo Passo (P0):** `Iniciar ciclo SDD da Feature 008 (Refatoração do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Feature 007 (Emenda 1) - Environment Bootstrap, Probes Ativos e Menu HITL
+- **Próximo Passo (P0):** `Iniciar Feature 008 (Refatoracao do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Feature 007 - Testes de Integração e E2E do Guardian de Contexto
+- **Próximo Passo (P0):** `Refatoração do mecanismo de exibição de contexto no repositório da nuvem (vitalia_context_engine.py e README.md visual — Feature 008)`
+
+### 🕒  — `Unknown`
+- **Tarefa:** Feature 007 - Guardian de Contexto
+- **Próximo Passo (P0):** `Testes end-to-end do Guardian na próxima feature simulada.`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Unknown Task
+- **Próximo Passo (P0):** `Iniciar SDD Feature 007 via /vitalia-spec-specify`
+
+### 🕒  — `andre-desktop`
+- **Tarefa:** Unknown Task
+- **Próximo Passo (P0):** `Incorporar agentes vitalia-agent-kit-main no kit atual (Feature 008)`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões em workflows
+- **Próximo Passo (P0):** `Publicar repositórios no GitHub usando publicar-repos.md`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
+- **Próximo Passo (P0):** `Publicar repositórios no GitHub usando publicar-repos.md`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
+- **Próximo Passo (P0):** `Publicar repositórios no GitHub usando publicar-repos.md`
+
+### 🕒  — `Unknown`
+- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões em workflows
+- **Próximo Passo (P0):** `Iniciar o planejamento e documentação da próxima feature (Feature 007) ou iniciar um novo fluxo de trabalho.`
+
+### 🕒  — `andrenote`
+- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
+- **Próximo Passo (P0):** `Publicar repositórios no GitHub usando publicar-repos.md`
+
+### 🕒  — `Unknown`
+- **Tarefa:** Observability Enhancement - Documentação e Manuais
+- **Próximo Passo (P0):** `Iniciar a Automação do Bench Test pipeline (criação de scripts e eventual integração visual com o Dashboard).`

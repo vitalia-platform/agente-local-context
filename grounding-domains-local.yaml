@@ -1,123 +1,49 @@
-# grounding-domains-local.yaml | GERADO pelo vitalia_context_engine.py
-# NAO EDITE ESTE ARQUIVO — use data/grounding-domains.jsonl para customizar
-# Ultima geracao: 27-08-2026 14:38:49(GMT-04:00)
-# Pendentes de curacao: 0
-
-base_version: unknown
-local_entries: 0
-pending_curadoria: 0
-last_generated: 27-08-2026 14:38:49(GMT-04:00)
+# grounding-domains-local.yaml | Compilado em: 28-08-2026 09:13:21(GMT-04:00)
+# Dicionário de domínios com verificação externa obrigatória
+version: '0.5.0'
 domains:
-  python_packages:
-    description: Para validar bibliotecas, versões compatíveis e breaking changes
-      no ecosistema Python.
-    authoritative_source: pypi.org
-    validation_schema:
-      type: object
-      properties:
-        package_name:
-          type: string
-        stable_version:
-          type: string
-        breaking_changes:
-          type: boolean
-        verified_url:
-          type: string
-          format: uri
-      required:
-      - package_name
-      - stable_version
-      - verified_url
-  external_apis:
-    description: Para validar endpoints, schemas de requisição e rate limits de APIs
-      de terceiros.
-    authoritative_source: Documentação oficial do provedor da API
-    validation_schema:
-      type: object
-      properties:
-        api_name:
-          type: string
-        endpoint_url:
-          type: string
-          format: uri
-        auth_type:
-          type: string
-        rate_limit:
-          type: string
-      required:
-      - api_name
-      - endpoint_url
-  cloud_services:
-    description: Para validar limites, preços e SLAs de serviços cloud (AWS, GCP,
-      Azure).
-    authoritative_source: Calculadora de preços ou documentação oficial da nuvem
-    validation_schema:
-      type: object
-      properties:
-        service_name:
-          type: string
-        pricing_tier:
-          type: string
-        limitations:
-          type: string
-        verified_url:
-          type: string
-          format: uri
-      required:
-      - service_name
-      - verified_url
-  clinical_safety:
-    description: 'Regras de segurança clínica para software de saúde: limites da IA,
-      protocolos de crise, disclaimers obrigatórios.'
-    authoritative_source: cfm.org.br, fda.gov, anvisa.gov.br
-    validation_schema:
-      type: object
-      properties:
-        rule_name:
-          type: string
-        severity_level:
-          type: string
-        verified_url:
-          type: string
-          format: uri
-      required:
-      - rule_name
-      - severity_level
-      - verified_url
-  data_privacy_regulations:
-    description: 'Regulações de privacidade de dados: LGPD, GDPR, HIPAA, GLBA.'
-    authoritative_source: anpd.gov.br, gdpr.eu, hhs.gov/hipaa, ftc.gov
-    validation_schema:
-      type: object
-      properties:
-        regulation_name:
-          type: string
-        compliance_requirement:
-          type: string
-        verified_url:
-          type: string
-          format: uri
-      required:
-      - regulation_name
-      - compliance_requirement
-      - verified_url
-  llm_agent_reliability:
-    description: 'Padrões de falha de LLMs em pipelines agênticos: Context Rot (dilução
-      de instruções com contexto longo), Reward Hacking (otimização do caminho mais
-      curto via RLHF), Instruction Hierarchy Collapse, e estratégias de mitigação
-      (Guardrails determinísticos, LLM-as-Judge, State Machines, Narrow Tooling).'
-    authoritative_source: morphllm.com, mariusmanolachi.com, arxiv.org, dev.to
-    validation_schema:
-      type: object
-      properties:
-        pattern_name:
-          type: string
-        mitigation_strategy:
-          type: string
-        verified_url:
-          type: string
-          format: uri
-      required:
-      - pattern_name
-      - verified_url
-exempt_domains: []
+  - name: 'llm_models'
+    description: 'modelos, precos, benchmarks LLM'
+    scope: 'global'
+  - name: 'python_packages'
+    description: 'versoes e compatibilidade pypi'
+    scope: 'global'
+  - name: 'external_apis'
+    description: 'endpoints e contratos de APIs externas'
+    scope: 'global'
+  - name: 'security_practices'
+    description: 'vulnerabilidades, CVEs e OWASP'
+    scope: 'global'
+  - name: 'regulations'
+    description: 'LGPD, HIPAA, GDPR e conformidade'
+    scope: 'global'
+  - name: 'cloud_services'
+    description: 'precos e SLAs de cloud'
+    scope: 'global'
+  - name: 'scientific_claims'
+    description: 'artigos, dosagens e referencias medicas'
+    scope: 'global'
+  - name: 'clinical_safety'
+    description: 'Regras de segurança clínica para software de saúde: limites da IA, protocolos de crise (CVV/SAMU), disclaimers obrigatórios, classificação de risco de features (baixo/médio/alto/crítico).'
+    scope: 'local'
+    status: 'PENDING'
+  - name: 'data_privacy_regulations'
+    description: 'Regulações de privacidade de dados: LGPD (Brasil), GDPR (Europa), HIPAA (EUA saúde), GLBA (EUA financeiro). Fontes autoritativas para verificar exigências, penalidades e requisitos de consentimento.'
+    scope: 'local'
+    status: 'PENDING'
+  - name: ''
+    description: ''
+    scope: 'local'
+    status: 'PENDING'
+  - name: ''
+    description: ''
+    scope: 'local'
+    status: 'PENDING'
+  - name: 'llm_agent_reliability'
+    description: 'Padrões de falha de LLMs em pipelines agênticos: Context Rot (dilução de instruções com contexto longo), Reward Hacking (otimização do caminho mais curto via RLHF), Instruction Hierarchy Collapse, e estratégias de mitigação (Guardrails determinísticos, LLM-as-Judge, State Machines, Narrow Tooling).'
+    scope: 'local'
+    status: 'PENDING'
+  - name: ''
+    description: ''
+    scope: 'local'
+    status: 'PENDING'

@@ -1,12 +1,12 @@
-<!-- README.md | Atualizado em: 27-08-2026 14:38:49(GMT-04:00) -->
+<!-- README.md | Atualizado em: 28-08-2026 09:13:21(GMT-04:00) -->
 
-# 🧠 Painel de Contexto — .vitalia
+# 🧠 Painel de Contexto — agente-local
 
-![Status](https://img.shields.io/badge/Status-LIVRE-2ea44f?style=for-the-badge&logo=github&logoColor=white)
-![Semáforo](https://img.shields.io/badge/Semáforo-Desbloqueado-success?style=for-the-badge)
-![Modo](https://img.shields.io/badge/Modo-Integrado%20(Full%20Observability)-8250df?style=for-the-badge)
-![Sync](https://img.shields.io/badge/Sync-Multi--Machine%20Cloud-0969da?style=for-the-badge)
-![Grounding](https://img.shields.io/badge/Grounding-0%20Pendentes-green?style=for-the-badge)
+<img src="https://img.shields.io/badge/Status-Ativo-success?style=flat-square" alt="Status" />
+<img src="https://img.shields.io/badge/Semáforo-LIVRE-success?style=flat-square" alt="Semáforo" />
+<img src="https://img.shields.io/badge/Ambiente-Integrado-purple?style=flat-square" alt="Ambiente" />
+<img src="https://img.shields.io/badge/Sync-GMT--04%3A00-informational?style=flat-square" alt="Sync" />
+<img src="https://img.shields.io/badge/Grounding-Ativo-blueviolet?style=flat-square" alt="Grounding" />
 
 > **Vitalia Kit v0.5.0 — Ledger de Memória Persistente e Orquestração Multi-Máquina.**  
 > Este repositório armazena o histórico distribuído, aprendizados consolidados e o controle de concorrência das sessões de trabalho do framework Vitalia.
@@ -19,17 +19,14 @@
 
 ```mermaid
 flowchart TD
-  Cloud(("Nuvem Central (.vitalia)<br/>origin/main"))
-  M_7f367bd3["andrenote (7f367bd3)<br/>● Ativo (Em Sessão)<br/>Modo: Integrado"]
-  M_f23704e7["andrenote (f23704e7)<br/>● Ativo (Em Sessão)<br/>Modo: Integrado"]
-
-  Cloud <-->|"25-08-2026 21:12:59(GMT-04:00)"| M_7f367bd3
-  Cloud <-->|"26-08-2026 22:07:09(GMT-04:00)"| M_f23704e7
-
-  style Cloud stroke:#0969da,stroke-width:2px,fill:#ddf4ff,color:#0969da
-  style M_7f367bd3 stroke:#2ea44f,stroke-width:2px,fill:#dafbe1,color:#1a7f37
-  style M_f23704e7 stroke:#6e7781,stroke-width:1px,fill:#f6f8fa,color:#57606a
-
+  Cloud(("☁️ Git Remoto / Hub"))
+  M_7f367bd3["💻 andrenote<br/><i>Feature 009: Refatoração Estrutural e Governança SDD do Vitalia Kit</i><br/><code>Integrado</code>"]
+  M_7f367bd3 <-->|"28-08-2026 09:12:43(GMT-04:00)"| Cloud
+  style M_7f367bd3 stroke:#8250df,stroke-width:2px,fill:#fbefff,color:#8250df
+  M_f23704e7["💻 Máquina<br/><i>Livre</i><br/><code>Integrado</code>"]
+  M_f23704e7 <-->|"26-08-2026 22:07:09(GMT-04:00)"| Cloud
+  style M_f23704e7 stroke:#8250df,stroke-width:2px,fill:#fbefff,color:#8250df
+  style Cloud stroke:#1a7f37,stroke-width:2px,fill:#dafbe1,color:#1a7f37
 ```
 
 </div>
@@ -51,22 +48,21 @@ flowchart TD
   </thead>
   <tbody>
     <tr>
-      <td><strong>andrenote</strong><br/><code>7f367bd3</code></td>
-      <td>Feature 008 (Refatoração Motor de Contexto)</td>
-      <td align="center"><span style="background-color:#8250df;color:white;padding:2px 6px;border-radius:4px;font-size:11px;">Integrado</span></td>
-      <td align="center"><span style="color:#2ea44f;font-weight:bold;">● Concluído</span></td>
-      <td>25-08-2026 21:12:59(GMT-04:00)</td>
-      <td>Iniciar SDD (Spec, Plan, Tasks, Implement) para a Feature 008, reescrevendo o guardian_context.py</td>
+      <td><strong>andrenote</strong> (<code>7f367bd3</code>)</td>
+      <td>Feature 009: Refatoração Estrutural e Governança SDD do Vitalia Kit</td>
+      <td align="center"><img src="https://img.shields.io/badge/-Integrado-purple?style=flat-square" alt="Integrado" /></td>
+      <td align="center"><span style="color:green;">●</span> Concluído</td>
+      <td>28-08-2026 09:12:43(GMT-04:00)</td>
+      <td><strong>Iniciar próxima feature do roadmap Vitalia (Feature 010) ou sincronizar via /vitalia-session-consolidate</strong></td>
     </tr>
     <tr>
-      <td><strong>andrenote</strong><br/><code>f23704e7</code></td>
-      <td>Feature 008-context-engine</td>
-      <td align="center"><span style="background-color:#8250df;color:white;padding:2px 6px;border-radius:4px;font-size:11px;">Integrado</span></td>
-      <td align="center"><span style="color:#2ea44f;font-weight:bold;">● Concluído</span></td>
+      <td><strong>unknown</strong> (<code>f23704e7</code>)</td>
+      <td></td>
+      <td align="center"><img src="https://img.shields.io/badge/-Integrado-purple?style=flat-square" alt="Integrado" /></td>
+      <td align="center"><span style="color:green;">●</span> Concluído</td>
       <td>26-08-2026 22:07:09(GMT-04:00)</td>
-      <td>Validação das views consolidadas (Dashboard, DECISIONS.md, LEARNINGS.md) no repositório remoto ou iniciar Feature 009.</td>
+      <td><strong></strong></td>
     </tr>
-
   </tbody>
 </table>
 
@@ -74,12 +70,10 @@ flowchart TD
 
 ## 🎯 Sessão Ativa em Destaque
 
-- **Feature Ativa:** Feature 008-context-engine
-- **Máquina em Execução:** `andrenote` (`7f367bd3`)
-- **Semáforo:** `LIVRE`
-- **Próximo Passo (P0):**
-  > Validação das views consolidadas (Dashboard, DECISIONS.md, LEARNINGS.md) no repositório remoto ou iniciar Feature 009.
-
+- **Estação Ativa:** `andrenote` (`7f367bd3`)
+- **Tarefa em Execução:** Feature 009: Refatoração Estrutural e Governança SDD do Vitalia Kit
+- **🎯 Próximo Passo Prioritário (P0):** `Iniciar próxima feature do roadmap Vitalia (Feature 010) ou sincronizar via /vitalia-session-consolidate`
+- **Última Sincronização:** `28-08-2026 09:12:43(GMT-04:00)`
 
 ---
 
@@ -90,151 +84,18 @@ flowchart TD
 
 <br/>
 
-### ✅ Sessão Encerrada em 26-08-2026 22:07(GMT-04:00)
-- **Máquina:** `Unknown` (`f23704e7`)
-- **Tarefa:** Feature 008-context-engine
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Validação das views consolidadas (Dashboard, DECISIONS.md, LEARNINGS.md) no repositório remoto ou iniciar Feature 009.
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `Unknown` (`f23704e7`)
-- **Tarefa:** Feature 008 - Refatoração Engine & Guardian (Finalizada)
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Rodar o comando /vitalia-session-consolidate
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** session_history
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Unknown
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI)
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar spec.md e plan.md com base no PRD
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Benchmark de Indústria, Saneamento de Testes e Sincronização do Kit Global
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Iniciar ciclo SDD da Feature 008 (Refatoração do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Feature 007 (Emenda 1) - Environment Bootstrap, Probes Ativos e Menu HITL
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Iniciar Feature 008 (Refatoracao do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Feature 007 - Testes de Integração e E2E do Guardian de Contexto
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Refatoração do mecanismo de exibição de contexto no repositório da nuvem (vitalia_context_engine.py e README.md visual — Feature 008)
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `Unknown` (`7f367bd3`)
-- **Tarefa:** Feature 007 - Guardian de Contexto
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Testes end-to-end do Guardian na próxima feature simulada.
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Unknown Task
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Iniciar SDD Feature 007 via /vitalia-spec-specify
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andre-desktop` (`f23704e7`)
-- **Tarefa:** Unknown Task
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Incorporar agentes vitalia-agent-kit-main no kit atual (Feature 008)
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões em workflows
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Publicar repositórios no GitHub usando publicar-repos.md
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Publicar repositórios no GitHub usando publicar-repos.md
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Publicar repositórios no GitHub usando publicar-repos.md
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `Unknown` (`7f367bd3`)
-- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões em workflows
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Iniciar o planejamento e documentação da próxima feature (Feature 007) ou iniciar um novo fluxo de trabalho.
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `andrenote` (`7f367bd3`)
-- **Tarefa:** Feature 006: grounding-guard-rails + correção de regressões
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Publicar repositórios no GitHub usando publicar-repos.md
-
----
-
-### ✅ Sessão Encerrada em Desconhecida
-- **Máquina:** `Unknown` (`7f367bd3`)
-- **Tarefa:** Observability Enhancement - Documentação e Manuais
-- **Atividades:**
-  - Sem resumo.
-- **Próximo Passo:** Iniciar a Automação do Bench Test pipeline (criação de scripts e eventual integração visual com o Dashboard).
-
----
-
-
+| Data / Hora | Estação (ID) | Tarefa Executada | Próximo Passo (P0) |
+| :--- | :--- | :--- | :--- |
+| 28-08-2026 09:12:43(GMT-04:00) | `andrenote (7f367bd3)` | Feature 009: Refatoração Estrutural e Governança SDD do Vitalia Kit | `Iniciar próxima feature do roadmap Vitalia (Feature 010) ou sincronizar via /vitalia-session-consolidate` |
+| 26-08-2026 22:07(GMT-04:00) | `machine (f23704e7)` | Feature 008-context-engine | `Validação das views consolidadas (Dashboard, DECISIONS.md, LEARNINGS.md) no repositório remoto ou iniciar Feature 009.` |
+|  | `Unknown (f23704e7)` | Feature 008 - Refatoração Engine & Guardian (Finalizada) | `Rodar o comando /vitalia-session-consolidate` |
+|  | `andrenote (7f367bd3)` | session_history | `Unknown` |
+|  | `andrenote (7f367bd3)` | Brainstorming e PRD Técnico da Feature 008 (Controle de Contexto & UX/UI) | `Iniciar o ciclo SDD da Feature 008 acionando /vitalia-spec-specify para gerar spec.md e plan.md com base no PRD` |
+|  | `andrenote (7f367bd3)` | Benchmark de Indústria, Saneamento de Testes e Sincronização do Kit Global | `Iniciar ciclo SDD da Feature 008 (Refatoração do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)` |
+|  | `andrenote (7f367bd3)` | Feature 007 (Emenda 1) - Environment Bootstrap, Probes Ativos e Menu HITL | `Iniciar Feature 008 (Refatoracao do Motor de Contexto vitalia_context_engine.py, state/semaphore.json e README.md visual)` |
+|  | `andrenote (7f367bd3)` | Feature 007 - Testes de Integração e E2E do Guardian de Contexto | `Refatoração do mecanismo de exibição de contexto no repositório da nuvem (vitalia_context_engine.py e README.md visual — Feature 008)` |
+|  | `Unknown (7f367bd3)` | Feature 007 - Guardian de Contexto | `Testes end-to-end do Guardian na próxima feature simulada.` |
+|  | `andrenote (7f367bd3)` | Unknown Task | `Iniciar SDD Feature 007 via /vitalia-spec-specify` |
 </details>
 
 <details>
@@ -244,25 +105,16 @@ flowchart TD
 
 | Máquina (ID) | Decisão Arquitetural | Impacto / Racional |
 | :--- | :--- | :--- |
-| **Máquina** (`7f367bd3`) | **KIT** | [DECISÃO] Priorização estrita da Feature 008 no saneamento de débitos técnicos (motor de contexto e semáforo isolado em state/semaphore.json), postergando incorporação de novos agentes para ciclos futuros. |
-| **Máquina** (`7f367bd3`) | **KIT** | [DECISÃO] Adoção do padrão Layered Evaluation Architecture (Chão Determinístico em código para permissão de ferramentas por fase + Teto Semântico no LLM Judge local Qwen para aderência à Constituição/regras clínicas). |
-| **Máquina** (`7f367bd3`) | **DEC-007: Probes Reais de Conectividade com Credenciais do Workspace** | Hooks usam REDIS_URL e NO2_SERVER_IP reais para verificar saude dos servicos em tempo real. |
-| **Máquina** (`7f367bd3`) | **DEC-006: Protocolo HITL para Falhas de Ambiente** | Adotado menu interativo com 3 opcoes (Autocorrecao, Fallback de degradacao, Parada imediata) em caso de .env/.venv ausentes ou containers desligados. |
-| **Máquina** (`7f367bd3`) | **DEC-005: Bootstrap Central de Ambiente (kit_env_bootstrap.py)** | Criado helper kit_env_bootstrap.py com auto-descoberta de raiz, parser .env nativo e injecao de site-packages do .venv no sys.path para todos os hooks do kit. |
-| **Máquina** (`7f367bd3`) | **Decisão** | [KIT] Padrão Vitalia para scripts invocados por hooks .toml: Opção C — stdlib-only obrigatório. Módulos externos (redis, requests, ollama) são importados dinamicamente com try/except, nunca como dependência rígida. Garante funcionamento em qualquer Python 3 sem venv. |
-| **Máquina** (`7f367bd3`) | **Decisão** | [KIT] scan_environment.py deve: (1) probar conectividade real de Redis (import dinâmico + ping com timeout), (2) probar Ollama/NO2 via HTTP, (3) usar sufixo PID no output (env_context_<pid>.json) para evitar colisão entre workflows paralelos, (4) detectar e reportar VIRTUAL_ENV ativo. |
-| **Máquina** (`7f367bd3`) | **Decisão** | [ARCH] Curadoria do grounding-domains.jsonl (promoção de entradas local→global, rejeição) deve ser responsabilidade exclusiva do workflow session-end, com etapa HITL que consulte o usuário. Curadoria manual direta nos arquivos é inaceitável. |
-| **Máquina** (`62a9aef0`) | **Decisão** | [SEGURANÇA SPA] O Dashboard Local não deve acessar PHI no Redis sem redação (Masking) em tempo real via WebSocket, e exige JWT estrito para o front. |
-| **Máquina** (`62a9aef0`) | **Decisão** | [DECISÃO] Adotado Opção A (Narrow Tooling) para Arquiteto e Opção A (On-the-loop sync) para Task Verifier. |
-| **Máquina** (`62a9aef0`) | **Decisão** | [TECH DEBT] Implantar Opção A (State Machine/LangGraph determinística) para Enforcement do SDD. Atualmente usando Opção B (Prompt Reinforcement) provisoriamente. |
-| **Máquina** (`62a9aef0`) | **Decisão** | [TECH DEBT] O workflow brainstorming ignorava o contexto. Solução: delegar a recuperação de contexto ao Sub-Agente para evitar estouro de tokens (window overflow) e alucinações, em vez de injetar o histórico inteiro. Risco provisório aceito: PHI nos logs crus até que o Sub-Agente Guardião seja construído para sanitização (Data Vault). |
-| **Máquina** (`f23704e7`) | **Decisão** | Artigo I da Constituição emendado: SDD passa a ser ciclo PEV de 6 etapas formais (RAG Sync → specify → plan → tasks → Task Verifier Gate → implement). |
-| **Máquina** (`f23704e7`) | **Decisão** | Separação kit × projeto: todos os 4 arquivos desta sessão foram criados/modificados exclusivamente em ~/.vitalia/kit/. O projeto agente-local não foi tocado. |
-| **Máquina** (`7f367bd3`) | **Decisão** | Thin Client e Agnosticismo de Paths: Arquivos nos diretórios locais .agents / .gemini são meros shims; lógicas e templates devem ser consumidos do Kit Global e referenciados por {{VITALIA_DIR}} para evitar hardcoding. |
-| **Máquina** (`7f367bd3`) | **Decisão** | Observabilidade via Dashboard de Vidro: Todas as execuções de LLM locais interceptadas via Fernet encryption para a fila vitalia_events, permitindo visualização de logs em WebSockets para depurar debates entre Arquiteto e Engenheiro. |
-| **Máquina** (`7f367bd3`) | **Decisão** | Sub-Agente Policy & Task Verifier (Híbrido): Nova etapa silenciosa entre o spec-tasks e spec-implement. Usa script Python para quebrar tarefas e Qwen2.5-coder:7b para micro-inferência 1-para-1, barrando transições se houver violações. |
-| **Máquina** (`7f367bd3`) | **Decisão** | Abandono de Múltiplos Arquivos de Spec: Em vez de spec médica, pedagógica etc. separadas, usa-se o workflow /vitalia-spec-specify acoplado ao sistema de Presets, modulando as seções da spec dinamicamente no runtime. |
-
+| `7f367bd3` | **[a3265e04]** `[KIT]` Avaliador Local Multi-Fase hooks/llm_judge.py com hierarquia estrita de severidades | Bloqueia (exit 1) apenas violações clínicas, de LGPD e de integridade SDD, tratando regras de didática e formatação como avisos (exit 2) com confirmação HITL. |
+| `7f367bd3` | **[94069e8d]** `[SECURITY]` Schema-Safe Context Pruning para constitution_data.yaml com teto calibrado de 500 tokens | Evita context bloat e diluição de atenção do LLM sem comprometer as salvaguardas constitucionais obrigatórias. |
+| `7f367bd3` | **[7f00ea3d]** `[ARCH]` Modular Monolith Flat Layout dividindo o Context Engine em core/, rendering/, hooks/ e maintenance/ | Desacopla responsabilidades, melhora a manutenibilidade e reduz o entrypoint raiz para <40 linhas mantendo 100% de compatibilidade stdlib. |
+| `7f367bd3` | **[d009kit]** `KIT`  | Registro defasado |
+| `7f367bd3` | **[d008kit]** `KIT`  | Registro defasado |
+| `7f367bd3` | **[dec_007_live_probes]** `[ARCH]` Hooks usam REDIS_URL e NO2_SERVER_IP reais para verificar saude dos servicos em tempo real. | Registro defasado |
+| `7f367bd3` | **[dec_006_hitl_env]** `[ARCH]` Adotado menu interativo com 3 opcoes (Autocorrecao, Fallback de degradacao, Parada imediata) em caso de .env/.venv ausentes ou containers desligados. | Registro defasado |
+| `7f367bd3` | **[dec_005_bootstrap]** `[ARCH]` Criado helper kit_env_bootstrap.py com auto-descoberta de raiz, parser .env nativo e injecao de site-packages do .venv no sys.path para todos os hooks do kit. | Registro defasado |
+| `7f367bd3` | **[71b866cb2e9c989a]** `[ARCH]` [KIT] Padrão Vitalia para scripts invocados por hooks .toml: Opção C — stdlib-only obrigatório. Módulos externos (redis, requests, ollama) são importados dinamicamente com try/except, nunca como dependência rígida. Garante funcionamento em qualquer Python 3 sem venv. | Registro defasado |
+| `7f367bd3` | **[02503c73a70f4625]** `[ARCH]` [KIT] scan_environment.py deve: (1) probar conectividade real de Redis (import dinâmico + ping com timeout), (2) probar Ollama/NO2 via HTTP, (3) usar sufixo PID no output (env_context_<pid>.json) para evitar colisão entre workflows paralelos, (4) detectar e reportar VIRTUAL_ENV ativo. | Registro defasado |
 </details>
 
 <details>
@@ -273,7 +125,7 @@ flowchart TD
 | Arquivo de Regras | Status | Domínios Monitorados | Pendentes de Curadoria HITL |
 | :--- | :---: | :--- | :---: |
 | `grounding-domains.yaml` (Global) | ✅ Ativo | `llm_models`, `python_packages`, `external_apis`, `security_practices`, `regulations`, `cloud_services`, `scientific_claims` | — |
-| [grounding-domains-local.yaml](./grounding-domains-local.yaml) (Projeto) | ✅ Presente | Domínios locais específicos do workspace | ✅ 0 pendentes |
+| `grounding-domains-local.yaml` (Projeto) | ✅ Sincronizado | Domínios locais específicos do workspace | `0 pendências` |
 
 </details>
 
